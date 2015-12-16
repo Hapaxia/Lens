@@ -1,3 +1,5 @@
+// https://github.com/Hapaxia/Lens
+
 uniform sampler2D texture;
 
 void main()
