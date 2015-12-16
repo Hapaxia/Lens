@@ -20,6 +20,7 @@ extlibs/
 test/
 test_*/
 PropertySheets/
+temp_storage/
 
 
 # Build results
