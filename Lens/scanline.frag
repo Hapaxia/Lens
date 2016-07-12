@@ -10,7 +10,7 @@ uniform float spacing = 1.0;
 void main()
 {
 	vec4 pixel = texture2D(texture, gl_TexCoord[0].xy) * gl_Color;
-	if (mod(gl_FragCoord.y, round(thickness) + round(spacing)) < round(spacing))
+	if (mod(gl_FragCoord.y, round(thickness + spacing)) < round(spacing))
 		pixel = vec4(pixel.rgb * (1.0 - amount), pixel.a);
 	gl_FragColor = pixel;
 }
