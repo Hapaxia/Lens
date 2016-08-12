@@ -1,6 +1,6 @@
 // https://github.com/Hapaxia/Lens
 
-#version 120
+#version 130
 
 uniform sampler2D texture;
 uniform float amount = 1.0;
